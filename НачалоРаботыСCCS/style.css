@@ -1,0 +1,35 @@
+body{
+    font-size: 24px;
+}
+
+h1{
+    color: red;
+    transition: all .9s;
+}
+
+h1:hover{
+    transform: scale(2);
+}
+
+li em{
+    color:rgb(219, 206, 27);
+}
+
+h1 + p{
+    color:rgb(2, 206, 2)
+}
+
+/** В зависимости от состояния*/
+a{
+    text-decoration: none;
+    color: green;
+}
+
+a:visited{
+    color: red;
+    transform: scale(2);
+}
+
+a:hover{
+    transform: scale(1);
+}
